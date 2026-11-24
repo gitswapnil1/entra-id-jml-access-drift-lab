@@ -57,3 +57,10 @@ While this lab executed manual reviews on Entra ID Free, enterprise environments
 1. **Dynamic Security Groups:** Automatically add/remove users from `SG-Finance-Access` based on the rule `(user.department -eq "Finance")`.
 2. **Microsoft Entra ID Governance (Access Reviews):** Schedule recurring quarterly access reviews for sensitive enterprise applications.
 3. **Lifecycle Workflows:** Trigger automated Joiner/Mover/Leaver tasks (such as temporary access passes, group removals, and account disablement) based on HR attribute changes.
+
+---
+
+---
+
+## Related IAM Lab
+* **[Enterprise Identity & Access Governance in Microsoft Entra ID](https://github.com/gitswapnil1/entra-id-iam-governance-lab):** Companion lab covering tenant-wide Security Defaults (MFA & legacy protocol blocking), least-privilege RBAC delegation (`User Administrator`), and a formal PDF Risk Assessment Case Study.
