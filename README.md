@@ -27,22 +27,22 @@ This lab simulates an end-to-end **Identity Lifecycle Management (JML)** and **A
 
 ### 1. Joiner: Baseline Onboarding (`Finance`)
 David Miller was created as a Member user with `Department: Finance` and `Job title: Financial Analyst`, and provisioned baseline access to `Finance-App-Prod`[cite: 1, 3].
-![Joiner Baseline Profile](assets/01-joiner-finance-profile.jpg)
+![Joiner Baseline Profile](assets/01-joiner-finance-profile.png)
 
 ### 2. Mover: Role Transition & Access Drift (`Finance` $\rightarrow$ `HR`)
 Upon transferring to `Department: HR` (`Job title: HR Coordinator`), David retained his legacy Finance entitlements—demonstrating how unmonitored role changes lead to privilege creep[cite: 4].
-![Mover HR Profile](assets/02-mover-hr-access-drift.jpg)
+![Mover HR Profile](assets/02-mover-hr-access-drift.png)
 
 ### 3. Access Drift Remediation: Entitlement Cleanup
 Following a manual access review against his new HR role, all stale Finance application and group assignments were revoked[cite: 5, 6, 8].
 
 | Enterprise Applications Cleaned | Security Groups Cleaned |
 | :---: | :---: |
-| ![Applications Cleaned](assets/03-remediation-apps-clean.jpg) | ![Groups Cleaned](assets/04-remediation-groups-clean.jpg) |
+| ![Applications Cleaned](assets/03-remediation-apps-clean.png) | ![Groups Cleaned](assets/04-remediation-groups-clean.png) |
 
 ### 4. Leaver & Audit Log Verification
 To complete offboarding, David Miller's account was disabled (`Account enabled: No`)[cite: 8]. The Entra ID **Audit logs** blade confirms every lifecycle and remediation event executed with `Status: Success`[cite: 8].
-![Leaver Audit Logs](assets/05-leaver-audit-logs.jpg)
+![Leaver Audit Logs](assets/05-leaver-audit-logs.png)
 
 ---
 
