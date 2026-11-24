@@ -23,6 +23,12 @@ This lab simulates an end-to-end **Identity Lifecycle Management (JML)** and **A
 
 ---
 
+## Repository Documentation
+* **[01 — JML Lifecycle Runbook](docs/01-jml-lifecycle-runbook.md):** Step-by-step operational SOP covering Joiner provisioning, Mover role updates, and Leaver offboarding/audit checks.
+* **[02 — Access Drift & Remediation Analysis](docs/02-access-drift-remediation.md):** Risk analysis of privilege creep (Finance → HR) and manual entitlement cleanup steps, plus Entra ID P1/P2 automation ideas.
+
+---
+
 ## Visual Walkthrough & Evidence
 
 ### 1. Joiner: Baseline Onboarding (`Finance`)
